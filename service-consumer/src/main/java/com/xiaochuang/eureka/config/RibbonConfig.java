@@ -17,6 +17,6 @@ public class RibbonConfig {
     }
     @Bean
     public IRule iRule(){
-        return  new RetryRule();
+        return  new RoundRobinRule();
     }
 }
