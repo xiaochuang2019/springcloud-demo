@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="eureka-client" />
-        <module name="config-server" />
         <module name="service-consumer" />
+        <module name="service-producer" />
         <module name="hystrix-dashboard" />
         <module name="service-producer-demo" />
-        <module name="service-producer" />
+        <module name="config-server" />
         <module name="gateway-server" />
         <module name="zuul-gateway-server" />
       </profile>
